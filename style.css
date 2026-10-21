@@ -102,3 +102,12 @@ body {
         text-align: center;
     }
 }
+.content-container-reverse {
+    flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+    .content-container-reverse {
+        flex-direction: column;
+    }
+}
